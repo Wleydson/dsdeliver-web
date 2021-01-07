@@ -1,5 +1,5 @@
 .home-container {
-    padding-top: 80px;
+    padding-top: 100px;
     height: calc(100vh - 215px);
 }
   
@@ -54,7 +54,7 @@
     width: 100%;
 }
   
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 813.99px) {
     .home-container {
         height: auto;
         margin-bottom: 50px;
@@ -85,4 +85,10 @@
     .home-image svg {
         width: 80%;
     }
+}
+
+@media only screen and (max-width: 974.99px) and (min-width: 815px) {
+    .home-image svg {
+        width: 377.3px !important;
+    }	  
 }
